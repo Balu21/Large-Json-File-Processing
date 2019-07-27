@@ -1,0 +1,5 @@
+Implemented multithreading and dynamic memory allocation
+
+I'm still having memory issues while handling large json files. Working on fixing it.
+
+Currently I'm using a Windows environment, I'll port it to Linux environment and then use Apache Arrow to generate columnar data segments so that the respective data can be sent to separate threads to process the queries with only the required information.
